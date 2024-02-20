@@ -9,7 +9,10 @@ for (let i = 0; i < input.length; i++) {
     for (let j = 0; j < vowels.length; j++) {
         //console.log(j);
         if (vowels[j] === input[i]) {
-            console.log(input[i]);
+            //console.log(input[i]);
+            resultsArray.push(input[i]);
         };
     };
 };
+
+console.log(resultsArray);
