@@ -1,4 +1,4 @@
-const input = "Hey, I just met you and this is crazy. But here's my number, so call me, maybe";
+const input = "Hey, I just met you and this is crazy. But here's my number, so call me, maybe?";
 
 const vowels = ['a','e','i','o','u'];
 
@@ -23,4 +23,5 @@ for (let i = 0; i < input.length; i++) {
 
 const resultString = resultsArray.join('').toUpperCase();
 
-console.log(resultString);
+console.log('Input:  ' + input);
+console.log('Output: ' + resultString);
