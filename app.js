@@ -6,7 +6,7 @@ const resultsArray = [];
 
 for (let i = 0; i < input.length; i++) {
     //console.log(i);
-    if (input[i] === 'e') {
+    if (input[i] === 'e' || input[i] === 'u') {
         resultsArray.push(input[i]);
     };
 
